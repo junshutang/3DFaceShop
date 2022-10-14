@@ -2,7 +2,7 @@
 ![Teaser](imgs/Picture1.png)
 ### [Project page](https://junshutang.github.io/control/index.html) |   [Paper](https://arxiv.org/pdf/2209.05434) 
 <!-- <br> -->
-[Junshu Tang](https://junshutang.github.io/),  [Bo Zhang](https://bo-zhang.me/), Binxin Yang, Ting Zhang, [Dong Chen](https://www.microsoft.com/en-us/research/people/doch/), [Lizhuang Ma](https://dmcv.sjtu.edu.cn/), and [Fang Wen](https://www.microsoft.com/en-us/research/people/fangwen/).
+[Junshu Tang](https://junshutang.github.io/),  [Bo Zhang](https://bo-zhang.me/), [Binxin Yang](https://orcid.org/0000-0003-4110-1986), [Ting Zhang](https://www.microsoft.com/en-us/research/people/tinzhan/), [Dong Chen](https://www.microsoft.com/en-us/research/people/doch/), [Lizhuang Ma](https://dmcv.sjtu.edu.cn/), and [Fang Wen](https://www.microsoft.com/en-us/research/people/fangwen/).
 <!-- <br> -->
 
 
