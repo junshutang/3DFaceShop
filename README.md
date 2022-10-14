@@ -20,11 +20,11 @@ pip install -U git+https://github.com/fadel/pytorch_ema
 ````
 Training requirements
 - [Nvdiffrast](https://nvlabs.github.io/nvdiffrast/). We use Nvdiffrast which is a pytorch library that provides high-performance primitive operations for rasterization-based differentiable rendering.
-```
-git clone https://github.com/NVlabs/nvdiffrast.git
-cd nvdiffrast/
-python setup.py install
-````
+  ```
+  git clone https://github.com/NVlabs/nvdiffrast.git
+  cd nvdiffrast/
+  python setup.py install
+  ```
 - [Basel Face Model 2009 (BFM09)](https://faces.dmi.unibas.ch/bfm/main.php?nav=1-0&id=basel_face_model).  Get access to BFM09 using this [link](https://faces.dmi.unibas.ch/bfm/main.php?nav=1-2&id=downloads). After getting the access, download `01_MorphableModel.mat`. In addition, we use an Expression Basis provided by [Guo et al.](https://github.com/Juyong/3DFace). Download the Expression Basis (Exp_Pca.bin) using this [link (google drive)](https://drive.google.com/file/d/1bw5Xf8C12pWmcMhNEu6PtsYVZkVucEN6/view?usp=sharing). Put them in `checkpoints/face_ckpt/BFM/`
 
 - [Face Reconstruction Model](https://github.com/sicxu/Deep3DFaceRecon_pytorch). We use the network to extract identity, expression, lighting, and pose coefficients. Download the pretrained model `epoch_20.pth` and put it in `checkpoints/face_ckpt/face_ckp/recon_model`
@@ -48,7 +48,7 @@ python test.py --curriculum FFHQ_512 --load_dir checkpoints/model/ --output_dir 
 - **[FFHQ](https://github.com/NVlabs/ffhq-dataset).** Download `images1024x1024` and resize to 512x512 resolution and put them in `data/ffhq/img`.
 
 - **Preprocess.** Run the command, modify `aligned_image_path` and `mat_path`. 
-    ````bash
+    ````
     python preprocess.py --curriculum FFHQ_512 --image_dir data/ffhq/img --img_output_dir aligned_image_path --mat_output_dir mat_path
     ````
 
