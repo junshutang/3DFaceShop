@@ -80,4 +80,4 @@ If you use this code for your research, please cite our paper.
 ```
 
 ## Acknowledgments
-This code borrows heavily from [PiGAN](https://github.com/marcoamonteiro/pi-GAN), [StyleGAN2](https://github.com/NVlabs/stylegan2) and [Deep3DFaceRecon](https://github.com/sicxu/Deep3DFaceRecon_pytorch).
+This code borrows heavily from [pi-GAN](https://github.com/marcoamonteiro/pi-GAN), [StyleGAN2](https://github.com/NVlabs/stylegan2) and [Deep3DFaceRecon](https://github.com/sicxu/Deep3DFaceRecon_pytorch).
