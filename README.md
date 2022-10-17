@@ -36,7 +36,7 @@ Training requirements
 - Face Parsing Network. Download `79999_iter.pth` from [face-parsing.PyTorch](https://github.com/zllrunning/face-parsing.PyTorch) and put in `checkpoints/face_ckpt/face_ckp/`.
 
 ## Quick Inference Using Pretrained Model
-Download the pretrained model from [here](https://drive.google.com/drive/folders/1FHD6_F3RIDIyYfLRpw_ndfxG57dOlnck) and save them in `checkpoints/model`. For pretrained VAE decoder, please download our pretrained model from [here](https://drive.google.com/drive/folders/1gx3vTEXGefx14E7WDOH6B7rTYgV966Zk?usp=sharing) and save them in `checkpoints/vae_ckp/`. We provide a test sequence in [here](https://drive.google.com/drive/folders/1yxwFuMSoVbntRq13QnAGpaBkVutvppX6?usp=sharing). Please download `obama/mat/*.mat` and put them in `data/`. Then run the command.
+Download the pretrained models from [here](https://drive.google.com/drive/folders/1FHD6_F3RIDIyYfLRpw_ndfxG57dOlnck) and save them in `checkpoints/model`. For pretrained VAE decoder, please download our pretrained models from [here](https://drive.google.com/drive/folders/1gx3vTEXGefx14E7WDOH6B7rTYgV966Zk?usp=sharing) and save them in `checkpoints/vae_ckp/`. We provide a test sequence in [here](https://drive.google.com/drive/folders/1yxwFuMSoVbntRq13QnAGpaBkVutvppX6?usp=sharing). Please download `obama/mat/*.mat` and put them in `data/`. Then run the command.
 ```
 python test.py --curriculum FFHQ_512 --load_dir checkpoints/model/ --output_dir results --blend_mode both  --seeds 41
 ```
@@ -57,7 +57,7 @@ python test.py --curriculum FFHQ_512 --load_dir checkpoints/model/ --output_dir 
 ```
 python train_vae.py --curriculum VAE_ALL --output_dir results/vae  --render_dir results/render --weight 0.0025 --factor id # id/exp/gamma
 ```
-- You can also download the pretrained VAE decoder from [here](https://drive.google.com/drive/folders/1gx3vTEXGefx14E7WDOH6B7rTYgV966Zk?usp=sharing) and save them in `checkpoints/vae_ckp/`. 
+- You can also download our pretrained VAE decoders from [here](https://drive.google.com/drive/folders/1gx3vTEXGefx14E7WDOH6B7rTYgV966Zk?usp=sharing) and save them in `checkpoints/vae_ckp/`. 
 
 #### 3) Imitation learning
 ```
@@ -69,7 +69,7 @@ python train_control.py --curriculum FFHQ_512 --output_dir train_ffhq_512 --load
 ```
 
 ## Citation
-If you use this code for your research, please cite our papers.
+If you use this code for your research, please cite our paper.
 ```
 @article{tang2022explicitly,
   title={Explicitly Controllable 3D-Aware Portrait Generation},
