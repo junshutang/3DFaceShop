@@ -1,4 +1,4 @@
-# 3DFaceShop: Explicitly Controllable 3D-Aware Portrait Generation (Official Pytorch Implementation)
+# 3DFaceShop: Explicitly Controllable 3D-Aware Portrait Generation (TVCG 2023)
 ![Teaser](imgs/Picture1.png)
 ### [Project page](https://junshutang.github.io/control/index.html) |   [Paper](https://arxiv.org/pdf/2209.05434) 
 <!-- <br> -->
