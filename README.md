@@ -71,12 +71,16 @@ python train_control.py --curriculum FFHQ_512 --output_dir train_ffhq_512 --load
 ## Citation
 If you use this code for your research, please cite our paper.
 ```
-@article{tang2022explicitly,
-  title={Explicitly Controllable 3D-Aware Portrait Generation},
+@article{tang20233dfaceshop,
+  title={3DFaceShop: Explicitly Controllable 3D-Aware Portrait Generation},
   author={Tang, Junshu and Zhang, Bo and Yang, Binxin and Zhang, Ting and Chen, Dong and Ma, Lizhuang and Wen, Fang},
-  journal={arXiv preprint arXiv:2209.05434},
-  year={2022}
+  journal={IEEE Transactions on Visualization \& Computer Graphics},
+  number={01},
+  pages={1--18},
+  year={2023},
+  publisher={IEEE Computer Society}
 }
+
 ```
 
 ## Acknowledgments
